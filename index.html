@@ -3,19 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dodaj Bota PulseHub</title>
+    <title>🚀 Dodaj PulseHub na swój serwer!</title>
     <style>
         body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #181818;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #53537c);
             color: white;
+            text-align: center;
             padding: 50px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        .bot-logo {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
         }
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
+            margin-bottom: 10px;
         }
-        a {
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
             display: inline-block;
             background-color: #5865F2;
             color: white;
@@ -24,20 +48,34 @@
             text-decoration: none;
             border-radius: 8px;
             transition: 0.3s;
+            margin: 10px;
         }
-        a:hover {
+        .btn:hover {
             background-color: #4752c4;
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.7;
         }
     </style>
 </head>
 <body>
 
-    <h1>Dodaj naszego bota na swój serwer! 🚀</h1>
-    <p>Kliknij poniżej, aby dodać PulseHub do swojego serwera Discord.</p>
-    
-    <a href="https://discord.com/oauth2/authorize?client_id=1346535269997740192&permissions=8&integration_type=0&scope=bot">
-        ➕ Dodaj Bota
-    </a>
+    <div class="container">
+        <img src="https://cdn.discordapp.com/icons/ID_BOTA/logo.png" alt="PulseHub Logo" class="bot-logo">
+        <h1>🚀 Dodaj PulseHub na swój serwer!</h1>
+        <p>PulseHub to inteligentny asystent dla Twojego serwera Discord. Automatyzacja, rozrywka i wiele więcej!</p>
+        <p>🌟 W pełni darmowy | ⚡ Szybki i niezawodny | 🔧 Wiele funkcji administracyjnych</p>
+
+        <div class="buttons">
+            <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1346535269997740192&permissions=8&integration_type=0&scope=bot" target="_blank">➕ Dodaj Bota</a>
+            <a class="btn" href="https://discord.gg/YOUR_INVITE" target="_blank">🌐 Dołącz do naszego Discorda</a>
+        </div>
+
+        <p class="footer">© 2024 PulseHub - Stworzony z pasją dla społeczności Discord 🚀</p>
+    </div>
 
 </body>
 </html>
